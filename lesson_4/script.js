@@ -76,7 +76,7 @@ let appData = {
     appData.income.sort();
 
     appData.income.forEach(function (item, index, incomeArr) {
-      console.log('Способы доп. заработка: ' + item);
+      console.log('Способы доп. заработка: ' + (index + 1) + item);
     });
   }
 };
